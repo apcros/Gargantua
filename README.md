@@ -11,5 +11,7 @@ This is still highly a WIP and there's lots of bugs, security issues and lack of
 
 ### Known issues :
 If the VRDE is not working as expected, you'll probably want to run this : 
+`su www-data -s /bin/bash && VBoxManage setproperty vrdeextpack "Oracle VM VirtualBox Extension Pack"`
 
-`VBoxManage setproperty vrdeextpack "Oracle VM VirtualBox Extension Pack"`
+### Interface 
+![Interface](http://img.apcros.fr/30145366530728.png)
